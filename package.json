@@ -8,7 +8,6 @@
     "lint": "eslint --format stylish .",
     "lint-fix": "eslint --format stylish --fix ."
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pault03/tdd-strict-equal.git"
@@ -20,8 +19,10 @@
   },
   "homepage": "https://github.com/Pault03/tdd-strict-equal#readme",
   "dependencies": {
-    "chai": "^4.3.6",
     "eslint": "^8.12.0",
     "mocha": "^9.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6"
   }
 }
